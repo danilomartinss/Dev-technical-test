@@ -1,7 +1,7 @@
 # EMBL-EBI Open Targets Software Developer technical test answers repository
 
 
-## Installation
+<head> Installation </head>
 
 Install the Python dependencies using:
 
