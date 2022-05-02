@@ -1,19 +1,28 @@
 # EMBL-EBI Open Targets Software Developer technical test answers repository
 
-Provides a single endpoint gene_suggest and responds with a list of suggested gene names for the given query and target species.
+Provides access to given target and disease data via FTP within Dask ensuring performace through efficient parallelization. Data is quickly integrated, processed, and analyzed.
 
 ## Installation
  
 Install the Python dependencies using:
 
-pip install -r requirements.txt
+<pre><code><i>pip install -r requirements.txt</pre></code></i>
 
  
 ## Usage
  
-To collect all requested files into dataframes and parse them, please run:
+To access all given data and parse it, please run:
 
-python target-disease.py
+<pre><code><i>python target-disease.py</pre></code></i>
 
+ ## Outputs
  
+ Two outputs will be generated in JSON format:
+ 
+ <li>Ordered target-disease associations</li>
+ <li>Joint target and disease information</li>
+ 
+ ## NOTE
+ 
+ This is a pseudocode which still need adaptation to ensure efficient performance.
 
