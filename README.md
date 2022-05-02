@@ -26,5 +26,5 @@ To access all given data and parse it, please run:
 
 ## NOTE
  
- This is a pseudocode which still need adaptation to ensure efficient performance.
+ This is a pseudocode which still need adaptation to ensure efficient performance and reproducibility.
 
